@@ -11,7 +11,7 @@
     },
     {
       "source": "music/",
-      "destination": "https://music.youtube.com"
+      "destination": "https://music.youtube.com/"
     },
     {
       "source": "music/:path*",
