@@ -1,0 +1,11 @@
+{
+  "name": "vercel-playback-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Vercel reverse proxy for playback.rachmat.pro",
+  "scripts": {
+    "dev": "npx vercel dev",
+    "deploy": "npx vercel",
+    "deploy:prod": "npx vercel --prod"
+  }
+}
