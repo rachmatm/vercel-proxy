@@ -2,12 +2,20 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/",
+      "source": "playback/",
       "destination": "https://playback.rachmat.pro/"
     },
     {
-      "source": "/:path*",
+      "source": "playback/:path*",
       "destination": "https://playback.rachmat.pro/:path*"
+    },
+    {
+      "source": "music/",
+      "destination": "https://music.youtube.com"
+    },
+    {
+      "source": "music/:path*",
+      "destination": "https://music.youtube.com/:path*"
     }
   ]
 }
