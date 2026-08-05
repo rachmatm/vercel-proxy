@@ -1,6 +1,13 @@
 {
-  "version": 2,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/:path*", "destination": "https://playback.rachmat.pro/:path*" }
+    {
+      "source": "/",
+      "destination": "https://playback.rachmat.pro/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://playback.rachmat.pro/:path*"
+    }
   ]
 }
