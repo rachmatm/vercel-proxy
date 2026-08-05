@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "https://playback.rachmat.pro/"
+      "destination": "http://168.110.205.100:5173/"
     },
     {
       "source": "/:path*",
-      "destination": "https://playback.rachmat.pro/:path*"
+      "destination": "http://168.110.205.100:5173/:path*"
     }
   ]
 }
